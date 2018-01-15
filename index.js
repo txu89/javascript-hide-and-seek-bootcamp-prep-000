@@ -19,5 +19,7 @@ function increaseRankBy(n) {
 function deepestChild() {
   let lis = document.getElementById('grand-node').querySelectorAll('div')
   current = lis
-  if (Array.hasArray)
+  if (Array.isArray(current)) {
+    current.shift()
+  }
 }
